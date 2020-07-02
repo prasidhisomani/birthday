@@ -1,0 +1,79 @@
+.alert {
+  text-align: center;
+}
+
+.container-fluid {
+    padding: 0 8%;
+  }
+
+.navbar {
+  padding-bottom: 20px;
+}
+
+.navbar-brand {
+  font-weight: bolder;
+}
+
+.nav-item {
+  padding: 0 10px;
+  font-weight: bold;
+}
+
+body {
+  background-color: #a6dcef
+}
+
+h1 {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+p{
+  padding-top: 8px;
+  font-weight: bold;
+}
+
+h6 {
+  padding-top: 80px;
+  text-align: center;
+}
+
+/* ACCORDION */
+
+.accordion {
+  background-color: #ddf3f5;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #f2aaaa;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
