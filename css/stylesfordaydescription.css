@@ -79,3 +79,6 @@ h6 {
   transition: max-height 0.2s ease-out;
 }
 
+.nametitle {
+  color: #ddf3f5;
+}
