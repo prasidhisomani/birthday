@@ -82,3 +82,9 @@ h6 {
 .nametitle {
   color: #f2aaaa;
 }
+
+.importantdates {
+  font-weight: bold;
+  font-family: 'Cedarville Cursive', cursive;
+  font-size: 25px;
+}
